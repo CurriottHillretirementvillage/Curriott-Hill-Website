@@ -74,6 +74,127 @@
         <p>Modern, Elegant Living for Over 55s</p>
     </header>
     
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriott Hill Retirement Village</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: url('Screenshot-2025-02-14-at-13.56.23.png') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            font-size: 2em;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -80px;
+            position: relative;
+            z-index: 2;
+        }
+        .logo-container img {
+            width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #004466;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #0088cc;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #0088cc;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #006699;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 0;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #004466;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="curriott-hill-logo.png" alt="Curriott Hill Logo">
+        </div>
+        <div class="hero-content">
+            <h1>Curriott Hill Retirement Village</h1>
+            <p>Modern, Elegant Living for Over 55s</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </header>
+    
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
@@ -84,19 +205,33 @@
     </nav>
     
     <section id="about">
-        <h2>About Curriott Hill Residential Park</h2>
-        <p>A tranquil and welcoming community designed for modern retirement living. Our park offers a balance of privacy, comfort, and social opportunities.</p>
+        <h2 style="text-align:center; margin-top:20px;">About Our Community</h2>
+        <p style="text-align:center; max-width: 800px; margin: auto;">Curriott Hill Retirement Village is designed to offer a serene, comfortable, and welcoming environment for retirees, with modern amenities and a vibrant community spirit.</p>
     </section>
     
-    <section id="benefits">
-        <h2>Benefits of Our Community</h2>
-        <ul>
-            <li>Spacious, modern park homes</li>
-            <li>Beautiful countryside setting</li>
-            <li>Low-maintenance, high-quality living</li>
-            <li>Convenient access to local amenities</li>
-        </ul>
+    <section id="gallery">
+        <h2 style="text-align:center; margin-top:20px;">Explore Our Community</h2>
+        <div class="gallery">
+            <img src="house1.jpg" alt="House 1">
+            <img src="house2.jpg" alt="House 2">
+            <img src="house3.jpg" alt="House 3">
+        </div>
     </section>
+    
+    <section id="contact">
+        <h2 style="text-align:center; margin-top:20px;">Contact Us</h2>
+        <p style="text-align:center;">Have questions? We’d love to hear from you.</p>
+        <p style="text-align:center;"><strong>Email:</strong> <a href="mailto:office@curriotthillfarm.co.uk">office@curriotthillfarm.co.uk</a></p>
+        <p style="text-align:center;"><strong>Phone:</strong> 07396 640897</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Curriott Hill Retirement Village. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
     
     <section id="faqs">
         <h2>Frequently Asked Questions</h2>
