@@ -6,56 +6,73 @@
     <title>Curriott Hill Residential Park</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f9f9f9;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background: #004466;
+            background: linear-gradient(to right, #004466, #0088cc);
             color: white;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
         }
         nav ul {
             list-style: none;
-            padding: 0;
-            text-align: center;
-            background: #0088cc;
-            margin: 0;
+            display: flex;
         }
         nav ul li {
-            display: inline;
-            padding: 15px;
+            margin: 0 15px;
         }
         nav ul li a {
-            color: white;
             text-decoration: none;
+            color: #004466;
+            font-weight: bold;
+            padding: 8px 12px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #0088cc;
         }
         section {
-            padding: 20px;
-            margin: 20px;
+            max-width: 900px;
+            margin: 40px auto;
             background: white;
-            border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004466;
+            margin-bottom: 15px;
         }
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             background: #004466;
             color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Curriott Hill Residential Park</h1>
-        <p>A peaceful community designed for modern retirement living.</p>
+        <h1>Curriott Hill Residential Park</h1>
+        <p>Modern, Elegant Living for Over 55s</p>
     </header>
     
     <nav>
@@ -69,31 +86,29 @@
     
     <section id="about">
         <h2>About Curriott Hill Residential Park</h2>
-        <p>Curriott Hill Residential Park is designed as a low-density, high-quality living space for those over 55. Our vision is to create a friendly, welcoming community where residents can enjoy a peaceful retirement.</p>
+        <p>A tranquil and welcoming community designed for modern retirement living. Our park offers a balance of privacy, comfort, and social opportunities.</p>
     </section>
     
     <section id="benefits">
         <h2>Benefits of Our Community</h2>
         <ul>
-            <li>Spacious, well-designed park homes</li>
+            <li>Spacious, modern park homes</li>
             <li>Beautiful countryside setting</li>
-            <li>Low-maintenance, hassle-free living</li>
-            <li>Close to local amenities</li>
+            <li>Low-maintenance, high-quality living</li>
+            <li>Convenient access to local amenities</li>
         </ul>
     </section>
     
     <section id="faqs">
         <h2>Frequently Asked Questions</h2>
-        <p><strong>Will this development increase traffic?</strong></p>
-        <p>No, our low-density community means minimal impact on local roads.</p>
+        <p><strong>Will this development increase traffic?</strong><br>No, our low-density community ensures minimal impact on roads.</p>
         
-        <p><strong>How will local infrastructure be affected?</strong></p>
-        <p>We are working closely with authorities to ensure all necessary services are in place.</p>
+        <p><strong>How will local infrastructure be affected?</strong><br>We are working with local authorities to integrate essential services seamlessly.</p>
     </section>
     
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>If you have any questions or concerns, feel free to reach out.</p>
+        <p>For inquiries or concerns, reach out to us:</p>
         <p>Email: <a href="mailto:office@curriotthillfarm.co.uk">office@curriotthillfarm.co.uk</a></p>
         <p>Phone: 07396 640897</p>
     </section>
